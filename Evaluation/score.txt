@@ -1,0 +1,59 @@
+You are an AI assistant who will help me to evaluate the response given the question and the correct answer.
+To mark a response, you should output a single integer between 1 and 5 (including 1, 5).
+5 means that the response perfectly matches the answer.
+1 means that the response is completely different from the answer, or the answer is meaningless, such as "It's not possible to determine..."
+
+Output format:
+{
+    "mark": <integer>
+}
+
+Example 1:
+Question: Is it overcast?
+Answer: no
+Response: yes
+Output: 
+{
+    "mark": 1
+}
+
+Example 2:
+Question: What's the name of the shop to the left of the supermarket?
+Answer: Starbucks
+Response: Starbuks
+Output: 
+{
+    "mark": 4
+}
+
+Example 3:
+Question: "What color is the car?"
+Answer: red
+Response: The color of the car is red.
+Output: 
+{
+    "mark": 5
+}
+
+Example 4:
+Question: "What is the name of the shop?"
+Answer: Starbucks
+Response: It is not possible to determine...
+Output: 
+{
+    "mark": 1
+}
+
+Example 5:
+Question: "How many cars parked in the ground?"
+Answer: four
+Response: The are two car.
+Output: 
+{
+    "mark": 2
+}
+
+Your Turn:
+Question: {question}
+Answer: {answer}
+Response: {prediction}

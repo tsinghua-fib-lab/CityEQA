@@ -1,0 +1,2402 @@
+[
+    {
+        "question_id": "0-0",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop with a yellow signboard. Please tell me What's the name of the shop with a yellow signboard?",
+        "answer": "FamilyMart",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -4191, 6403, 8, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6420, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "1-0",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop named FamilyMart. Please tell me How many cars are parked in front of the shop named FamilyMart?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 225 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6420, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "2-0",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop named FamilyMart. Please tell me Is there any car parked in front of the shop named FamilyMart? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 225 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6420, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "3-0",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop named FamilyMart. Please tell me What's the name of the shop to the left of the shop named FamilyMart?",
+        "answer": "Cheesspod",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6411, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6420, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "4-0",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop with yellow signboard. Please tell me Is the shop with yellow signboard open? (yes or no)",
+        "answer": "no",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4193, 6400, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6420, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "5-0",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop named FamilyMart. Please tell me Can I buy mineral water in the shop named FamilyMart? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4195, 6403, 7, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6420, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "6-0",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop named CENTRAL ALL-STAR. Please tell me Can I buy coffe in the shop named CENTRAL ALL-STAR? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4200, 6381, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4209, 6382, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6420, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "7-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me What's in the parking lot?",
+        "answer": "cars",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "8-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me Is there any cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "9-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me What color is the jeep in the parking lot?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5368, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "10-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me Is there any black cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "11-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me Is there any red cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "12-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me Is there any jeep cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "13-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the Jeep? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "14-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the yellow sedan? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "15-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me How many jeep cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "16-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me How many cars in the parking lot?",
+        "answer": "8",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "17-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me How many police cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5324, 6710, 9, 0, 0, 300 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "18-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me Is the white car in the parking lot a sedan or a truck?",
+        "answer": "a sedan",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6707, 9, 0, 0, 40 ],
+        "target_pose": [
+            -5361, 6722, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "19-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me What color is the car narrated by the red sedan in the parking lot?",
+        "answer": "black",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5367, 6769, 7, 0, 0, 145 ],
+        "target_pose": [
+            -5370, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "20-0",
+        "question": "There is a building to the east of you. To the south of the building, there is a parking lot. Please tell me How many empty parking spaces are left in the parking lot?",
+        "answer": "4",
+        "category": "Counting",
+        "observation_pose": [
+            -5393, 6775, 14, 0, 0, 140 ],
+        "target_pose": [
+            -5373, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "21-0",
+        "question": "There is a building to the east of you. To the north of the building, there is a store with a black signboard. Please tell me What is the name of the store with a black signboard?",
+        "answer": "EXCHANGE",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6847, 9, 0, 0, 150 ],
+        "target_pose": [
+            -5368, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "22-0",
+        "question": "There is a building to the east of you. To the north of the building, there is a store with a Green signboard. Please tell me What is the name of the store with a Green signboard?",
+        "answer": "BOOKS",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "23-0",
+        "question": "There is a building to the east of you. To the north of the building, there is a shop with a yellow signboard. Please tell me What color is the car parked in front of a shop with a yellow signboard?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5356, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5336, 6833, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "24-0",
+        "question": "There is a building to the east of you. To the north of the building, there is a shop named BOOKS. Please tell me What color is the signboard of shop named BOOKS?",
+        "answer": "Green",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "25-0",
+        "question": "There is a building to the east of you. To the north of the building, there is a SUV. Please tell me What color is the SUV?",
+        "answer": "Red",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5391, 6835, 8, 0, 0, 55 ],
+        "target_pose": [
+            -5375, 6848, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "26-0",
+        "question": "There is a building to the east of you. To the north of the building, there is a black signboard. Please tell me What color is the signboard to the left of the black signboard?",
+        "answer": "Green",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "27-0",
+        "question": "There is a building to the east of you. To the north of the building, there is a green signboard. Please tell me What color is the signboard to the right of the green signboard?",
+        "answer": "black",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5358, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "28-0",
+        "question": "There is a building to the east of you. To the north of the building, there is a shop named BOOKS. Please tell me What type of car is parked in front of the shop named BOOKS?",
+        "answer": "police car",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5376, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5355, 6855, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "29-0",
+        "question": "There is a building to the east of you. To the north of the building, there is a shop with a red signboard. Please tell me Can I withdraw money from the shop with a red signboard? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5302, 6848, 7, 0, 0, 140 ],
+        "target_pose": [
+            -5280, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "30-0",
+        "question": "There is a building to the east of you. To the north of the building, there is a store with a yellow signboard. Please tell me What is the name of the store with a yellow signboard?",
+        "answer": "Pharmacy",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5338, 6844, 8, 0, 0, 165 ],
+        "target_pose": [
+            -5334, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "31-0",
+        "question": "There is a building to the east of you. To the north of the building, there is a store with a blue signboard. Please tell me What is the name of the store with a blue signboard?",
+        "answer": "Cheesspod",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5313, 6844, 8, 0, 0, 175 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5401, 6805, 9, 0, 0, 90 ]
+    },
+    {
+        "question_id": "0-1",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop with a yellow signboard. Please tell me What's the name of the shop with a yellow signboard?",
+        "answer": "FamilyMart",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -4191, 6403, 8, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6388, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "1-1",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop named FamilyMart. Please tell me How many cars are parked in front of the shop named FamilyMart?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 225 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6388, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "2-1",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop named FamilyMart. Please tell me Is there any car parked in front of the shop named FamilyMart? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 225 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6388, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "3-1",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop named FamilyMart. Please tell me What's the name of the shop to the left of the shop named FamilyMart?",
+        "answer": "Cheesspod",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6411, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6388, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "4-1",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop with yellow signboard. Please tell me Is the shop with yellow signboard open? (yes or no)",
+        "answer": "no",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4193, 6400, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6388, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "5-1",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop named FamilyMart. Please tell me Can I buy mineral water in the shop named FamilyMart? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4195, 6403, 7, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6388, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "6-1",
+        "question": "There is a building to the west of you. To the east of the building, there is a shop named CENTRAL ALL-STAR. Please tell me Can I buy coffe in the shop named CENTRAL ALL-STAR? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4200, 6381, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4209, 6382, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4198, 6388, 5, 0, 0, 270 ]
+    },
+    {
+        "question_id": "7-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me What's in the parking lot?",
+        "answer": "cars",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "8-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me Is there any cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "9-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me What color is the jeep in the parking lot?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5368, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "10-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me Is there any black cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "11-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me Is there any red cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "12-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me Is there any jeep cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "13-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the Jeep? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "14-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the yellow sedan? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "15-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me How many jeep cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "16-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me How many cars in the parking lot?",
+        "answer": "8",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "17-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me How many police cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5324, 6710, 9, 0, 0, 300 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "18-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me Is the white car in the parking lot a sedan or a truck?",
+        "answer": "a sedan",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6707, 9, 0, 0, 40 ],
+        "target_pose": [
+            -5361, 6722, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "19-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me What color is the car narrated by the red sedan in the parking lot?",
+        "answer": "black",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5367, 6769, 7, 0, 0, 145 ],
+        "target_pose": [
+            -5370, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "20-1",
+        "question": "There is a building to the north of you. To the south of the building, there is a parking lot. Please tell me How many empty parking spaces are left in the parking lot?",
+        "answer": "4",
+        "category": "Counting",
+        "observation_pose": [
+            -5393, 6775, 14, 0, 0, 140 ],
+        "target_pose": [
+            -5373, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "21-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a store with a black signboard. Please tell me What is the name of the store with a black signboard?",
+        "answer": "EXCHANGE",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6847, 9, 0, 0, 150 ],
+        "target_pose": [
+            -5368, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "22-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a store with a Green signboard. Please tell me What is the name of the store with a Green signboard?",
+        "answer": "BOOKS",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "23-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a shop with a yellow signboard. Please tell me What color is the car parked in front of a shop with a yellow signboard?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5356, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5336, 6833, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "24-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a shop named BOOKS. Please tell me What color is the signboard of shop named BOOKS?",
+        "answer": "Green",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "25-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a SUV. Please tell me What color is the SUV?",
+        "answer": "Red",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5391, 6835, 8, 0, 0, 55 ],
+        "target_pose": [
+            -5375, 6848, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "26-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a black signboard. Please tell me What color is the signboard to the left of the black signboard?",
+        "answer": "Green",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "27-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a green signboard. Please tell me What color is the signboard to the right of the green signboard?",
+        "answer": "black",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5358, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "28-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a shop named BOOKS. Please tell me What type of car is parked in front of the shop named BOOKS?",
+        "answer": "police car",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5376, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5355, 6855, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "29-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a shop with a red signboard. Please tell me Can I withdraw money from the shop with a red signboard? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5302, 6848, 7, 0, 0, 140 ],
+        "target_pose": [
+            -5280, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "30-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a store with a yellow signboard. Please tell me What is the name of the store with a yellow signboard?",
+        "answer": "Pharmacy",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5338, 6844, 8, 0, 0, 165 ],
+        "target_pose": [
+            -5334, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "31-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a store with a blue signboard. Please tell me What is the name of the store with a blue signboard?",
+        "answer": "Cheesspod",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5313, 6844, 8, 0, 0, 175 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "32-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a store with a red signboard. Please tell me What is the name of the store with a red signboard?",
+        "answer": "Bank",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5291, 6847, 8, 0, 0, 175 ],
+        "target_pose": [
+            -5291, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "33-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a shop with blue signboard. Please tell me Is there any jeep cars parked in front of the shop with blue signboard? (yes or no)",
+        "answer": "no",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5294, 6849, 8, 0, 0, 205 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "34-1",
+        "question": "There is a building to the north of you. To the north of the building, there is a shop with blue signboard. Please tell me Is there any white cars parked in front of the shop with blue signboard? (yes or no)",
+        "answer": "no",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5294, 6849, 8, 0, 0, 205 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5371, 6770, 9, 0, 0, 0 ]
+    },
+    {
+        "question_id": "0-2",
+        "question": "There is a building to the south of you. To the east of the building, there is a shop with a yellow signboard. Please tell me What's the name of the shop with a yellow signboard?",
+        "answer": "FamilyMart",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -4191, 6403, 8, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4217, 6434, 5, 0, 0, 180 ]
+    },
+    {
+        "question_id": "1-2",
+        "question": "There is a building to the south of you. To the east of the building, there is a shop named FamilyMart. Please tell me How many cars are parked in front of the shop named FamilyMart?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 225 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4217, 6434, 5, 0, 0, 180 ]
+    },
+    {
+        "question_id": "2-2",
+        "question": "There is a building to the south of you. To the east of the building, there is a shop named FamilyMart. Please tell me Is there any car parked in front of the shop named FamilyMart? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 225 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4217, 6434, 5, 0, 0, 180 ]
+    },
+    {
+        "question_id": "3-2",
+        "question": "There is a building to the south of you. To the east of the building, there is a shop named FamilyMart. Please tell me What's the name of the shop to the left of the shop named FamilyMart?",
+        "answer": "Cheesspod",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6411, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4217, 6434, 5, 0, 0, 180 ]
+    },
+    {
+        "question_id": "4-2",
+        "question": "There is a building to the south of you. To the east of the building, there is a shop with yellow signboard. Please tell me Is the shop with yellow signboard open? (yes or no)",
+        "answer": "no",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4193, 6400, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4217, 6434, 5, 0, 0, 180 ]
+    },
+    {
+        "question_id": "5-2",
+        "question": "There is a building to the south of you. To the east of the building, there is a shop named FamilyMart. Please tell me Can I buy mineral water in the shop named FamilyMart? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4195, 6403, 7, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4217, 6434, 5, 0, 0, 180 ]
+    },
+    {
+        "question_id": "6-2",
+        "question": "There is a building to the south of you. To the east of the building, there is a shop named CENTRAL ALL-STAR. Please tell me Can I buy coffe in the shop named CENTRAL ALL-STAR? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4200, 6381, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4209, 6382, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4217, 6434, 5, 0, 0, 180 ]
+    },
+    {
+        "question_id": "7-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me What's in the parking lot?",
+        "answer": "cars",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "8-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me Is there any cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "9-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me What color is the jeep in the parking lot?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5368, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "10-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me Is there any black cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "11-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me Is there any red cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "12-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me Is there any jeep cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "13-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the Jeep? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "14-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the yellow sedan? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "15-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me How many jeep cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "16-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me How many cars in the parking lot?",
+        "answer": "8",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "17-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me How many police cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5324, 6710, 9, 0, 0, 300 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "18-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me Is the white car in the parking lot a sedan or a truck?",
+        "answer": "a sedan",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6707, 9, 0, 0, 40 ],
+        "target_pose": [
+            -5361, 6722, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "19-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me What color is the car narrated by the red sedan in the parking lot?",
+        "answer": "black",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5367, 6769, 7, 0, 0, 145 ],
+        "target_pose": [
+            -5370, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "20-2",
+        "question": "There is a building to the west of you. To the south of the building, there is a parking lot. Please tell me How many empty parking spaces are left in the parking lot?",
+        "answer": "4",
+        "category": "Counting",
+        "observation_pose": [
+            -5393, 6775, 14, 0, 0, 140 ],
+        "target_pose": [
+            -5373, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "21-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a store with a black signboard. Please tell me What is the name of the store with a black signboard?",
+        "answer": "EXCHANGE",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6847, 9, 0, 0, 150 ],
+        "target_pose": [
+            -5368, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "22-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a store with a Green signboard. Please tell me What is the name of the store with a Green signboard?",
+        "answer": "BOOKS",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "23-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a shop with a yellow signboard. Please tell me What color is the car parked in front of a shop with a yellow signboard?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5356, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5336, 6833, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "24-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a shop named BOOKS. Please tell me What color is the signboard of shop named BOOKS?",
+        "answer": "Green",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "25-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a SUV. Please tell me What color is the SUV?",
+        "answer": "Red",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5391, 6835, 8, 0, 0, 55 ],
+        "target_pose": [
+            -5375, 6848, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "26-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a black signboard. Please tell me What color is the signboard to the left of the black signboard?",
+        "answer": "Green",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "27-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a green signboard. Please tell me What color is the signboard to the right of the green signboard?",
+        "answer": "black",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5358, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "28-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a shop named BOOKS. Please tell me What type of car is parked in front of the shop named BOOKS?",
+        "answer": "police car",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5376, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5355, 6855, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "29-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a shop with a red signboard. Please tell me Can I withdraw money from the shop with a red signboard? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5302, 6848, 7, 0, 0, 140 ],
+        "target_pose": [
+            -5280, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "30-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a store with a yellow signboard. Please tell me What is the name of the store with a yellow signboard?",
+        "answer": "Pharmacy",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5338, 6844, 8, 0, 0, 165 ],
+        "target_pose": [
+            -5334, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "31-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a store with a blue signboard. Please tell me What is the name of the store with a blue signboard?",
+        "answer": "Cheesspod",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5313, 6844, 8, 0, 0, 175 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "32-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a store with a red signboard. Please tell me What is the name of the store with a red signboard?",
+        "answer": "Bank",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5291, 6847, 8, 0, 0, 175 ],
+        "target_pose": [
+            -5291, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "33-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a shop with blue signboard. Please tell me Is there any jeep cars parked in front of the shop with blue signboard? (yes or no)",
+        "answer": "no",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5294, 6849, 8, 0, 0, 205 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "34-2",
+        "question": "There is a building to the west of you. To the north of the building, there is a shop with blue signboard. Please tell me Is there any white cars parked in front of the shop with blue signboard? (yes or no)",
+        "answer": "no",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5294, 6849, 8, 0, 0, 205 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5262, 6805, 9, 0, 0, 270 ]
+    },
+    {
+        "question_id": "0-3",
+        "question": "There is a building to the east of you. To the east of the building, there is a shop with a yellow signboard. Please tell me What's the name of the shop with a yellow signboard?",
+        "answer": "FamilyMart",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -4191, 6403, 8, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4240, 6423, 5, 0, 0, 90 ]
+    },
+    {
+        "question_id": "1-3",
+        "question": "There is a building to the east of you. To the east of the building, there is a shop named FamilyMart. Please tell me How many cars are parked in front of the shop named FamilyMart?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 225 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4240, 6423, 5, 0, 0, 90 ]
+    },
+    {
+        "question_id": "2-3",
+        "question": "There is a building to the east of you. To the east of the building, there is a shop named FamilyMart. Please tell me Is there any car parked in front of the shop named FamilyMart? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 225 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4240, 6423, 5, 0, 0, 90 ]
+    },
+    {
+        "question_id": "3-3",
+        "question": "There is a building to the east of you. To the east of the building, there is a shop named FamilyMart. Please tell me What's the name of the shop to the left of the shop named FamilyMart?",
+        "answer": "Cheesspod",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6411, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4240, 6423, 5, 0, 0, 90 ]
+    },
+    {
+        "question_id": "4-3",
+        "question": "There is a building to the east of you. To the east of the building, there is a shop with yellow signboard. Please tell me Is the shop with yellow signboard open? (yes or no)",
+        "answer": "no",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4193, 6400, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4240, 6423, 5, 0, 0, 90 ]
+    },
+    {
+        "question_id": "5-3",
+        "question": "There is a building to the east of you. To the east of the building, there is a shop named FamilyMart. Please tell me Can I buy mineral water in the shop named FamilyMart? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4195, 6403, 7, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4240, 6423, 5, 0, 0, 90 ]
+    },
+    {
+        "question_id": "6-3",
+        "question": "There is a building to the east of you. To the east of the building, there is a shop named CENTRAL ALL-STAR. Please tell me Can I buy coffe in the shop named CENTRAL ALL-STAR? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4200, 6381, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4209, 6382, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4240, 6423, 5, 0, 0, 90 ]
+    },
+    {
+        "question_id": "7-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me What's in the parking lot?",
+        "answer": "cars",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "8-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "9-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me What color is the jeep in the parking lot?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5368, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "10-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any black cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "11-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any red cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "12-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any jeep cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "13-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the Jeep? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "14-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the yellow sedan? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "15-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many jeep cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "16-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many cars in the parking lot?",
+        "answer": "8",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "17-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many police cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5324, 6710, 9, 0, 0, 300 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "18-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is the white car in the parking lot a sedan or a truck?",
+        "answer": "a sedan",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6707, 9, 0, 0, 40 ],
+        "target_pose": [
+            -5361, 6722, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "19-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me What color is the car narrated by the red sedan in the parking lot?",
+        "answer": "black",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5367, 6769, 7, 0, 0, 145 ],
+        "target_pose": [
+            -5370, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "20-3",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many empty parking spaces are left in the parking lot?",
+        "answer": "4",
+        "category": "Counting",
+        "observation_pose": [
+            -5393, 6775, 14, 0, 0, 140 ],
+        "target_pose": [
+            -5373, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "21-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a black signboard. Please tell me What is the name of the store with a black signboard?",
+        "answer": "EXCHANGE",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6847, 9, 0, 0, 150 ],
+        "target_pose": [
+            -5368, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "22-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a Green signboard. Please tell me What is the name of the store with a Green signboard?",
+        "answer": "BOOKS",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "23-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with a yellow signboard. Please tell me What color is the car parked in front of a shop with a yellow signboard?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5356, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5336, 6833, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "24-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop named BOOKS. Please tell me What color is the signboard of shop named BOOKS?",
+        "answer": "Green",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "25-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a SUV. Please tell me What color is the SUV?",
+        "answer": "Red",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5391, 6835, 8, 0, 0, 55 ],
+        "target_pose": [
+            -5375, 6848, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "26-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a black signboard. Please tell me What color is the signboard to the left of the black signboard?",
+        "answer": "Green",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "27-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a green signboard. Please tell me What color is the signboard to the right of the green signboard?",
+        "answer": "black",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5358, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "28-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop named BOOKS. Please tell me What type of car is parked in front of the shop named BOOKS?",
+        "answer": "police car",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5376, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5355, 6855, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "29-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with a red signboard. Please tell me Can I withdraw money from the shop with a red signboard? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5302, 6848, 7, 0, 0, 140 ],
+        "target_pose": [
+            -5280, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "30-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a yellow signboard. Please tell me What is the name of the store with a yellow signboard?",
+        "answer": "Pharmacy",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5338, 6844, 8, 0, 0, 165 ],
+        "target_pose": [
+            -5334, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "31-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a blue signboard. Please tell me What is the name of the store with a blue signboard?",
+        "answer": "Cheesspod",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5313, 6844, 8, 0, 0, 175 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "32-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a red signboard. Please tell me What is the name of the store with a red signboard?",
+        "answer": "Bank",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5291, 6847, 8, 0, 0, 175 ],
+        "target_pose": [
+            -5291, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "33-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with blue signboard. Please tell me Is there any jeep cars parked in front of the shop with blue signboard? (yes or no)",
+        "answer": "no",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5294, 6849, 8, 0, 0, 205 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "34-3",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with blue signboard. Please tell me Is there any white cars parked in front of the shop with blue signboard? (yes or no)",
+        "answer": "no",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5294, 6849, 8, 0, 0, 205 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5289, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "0-4",
+        "question": "There is a building to the north of you. To the east of the building, there is a shop with a yellow signboard. Please tell me What's the name of the shop with a yellow signboard?",
+        "answer": "FamilyMart",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -4191, 6403, 8, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4220, 6365, 5, 0, 0, 0 ]
+    },
+    {
+        "question_id": "1-4",
+        "question": "There is a building to the north of you. To the east of the building, there is a shop named FamilyMart. Please tell me How many cars are parked in front of the shop named FamilyMart?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 225 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4220, 6365, 5, 0, 0, 0 ]
+    },
+    {
+        "question_id": "2-4",
+        "question": "There is a building to the north of you. To the east of the building, there is a shop named FamilyMart. Please tell me Is there any car parked in front of the shop named FamilyMart? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 225 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4220, 6365, 5, 0, 0, 0 ]
+    },
+    {
+        "question_id": "3-4",
+        "question": "There is a building to the north of you. To the east of the building, there is a shop named FamilyMart. Please tell me What's the name of the shop to the left of the shop named FamilyMart?",
+        "answer": "Cheesspod",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -4195, 6411, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6411, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4220, 6365, 5, 0, 0, 0 ]
+    },
+    {
+        "question_id": "4-4",
+        "question": "There is a building to the north of you. To the east of the building, there is a shop with yellow signboard. Please tell me Is the shop with yellow signboard open? (yes or no)",
+        "answer": "no",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4193, 6400, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4220, 6365, 5, 0, 0, 0 ]
+    },
+    {
+        "question_id": "5-4",
+        "question": "There is a building to the north of you. To the east of the building, there is a shop named FamilyMart. Please tell me Can I buy mineral water in the shop named FamilyMart? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4195, 6403, 7, 0, 0, 270 ],
+        "target_pose": [
+            -4208, 6402, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4220, 6365, 5, 0, 0, 0 ]
+    },
+    {
+        "question_id": "6-4",
+        "question": "There is a building to the north of you. To the east of the building, there is a shop named CENTRAL ALL-STAR. Please tell me Can I buy coffe in the shop named CENTRAL ALL-STAR? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -4200, 6381, 5, 0, 0, 270 ],
+        "target_pose": [
+            -4209, 6382, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -4220, 6365, 5, 0, 0, 0 ]
+    },
+    {
+        "question_id": "7-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me What's in the parking lot?",
+        "answer": "cars",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "8-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "9-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me What color is the jeep in the parking lot?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5368, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "10-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any black cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "11-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any red cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "12-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any jeep cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "13-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the Jeep? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "14-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the yellow sedan? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "15-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many jeep cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "16-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many cars in the parking lot?",
+        "answer": "8",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "17-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many police cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5324, 6710, 9, 0, 0, 300 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "18-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is the white car in the parking lot a sedan or a truck?",
+        "answer": "a sedan",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6707, 9, 0, 0, 40 ],
+        "target_pose": [
+            -5361, 6722, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "19-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me What color is the car narrated by the red sedan in the parking lot?",
+        "answer": "black",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5367, 6769, 7, 0, 0, 145 ],
+        "target_pose": [
+            -5370, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "20-4",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many empty parking spaces are left in the parking lot?",
+        "answer": "4",
+        "category": "Counting",
+        "observation_pose": [
+            -5393, 6775, 14, 0, 0, 140 ],
+        "target_pose": [
+            -5373, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "21-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a black signboard. Please tell me What is the name of the store with a black signboard?",
+        "answer": "EXCHANGE",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6847, 9, 0, 0, 150 ],
+        "target_pose": [
+            -5368, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "22-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a Green signboard. Please tell me What is the name of the store with a Green signboard?",
+        "answer": "BOOKS",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "23-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with a yellow signboard. Please tell me What color is the car parked in front of a shop with a yellow signboard?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5356, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5336, 6833, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "24-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop named BOOKS. Please tell me What color is the signboard of shop named BOOKS?",
+        "answer": "Green",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "25-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a SUV. Please tell me What color is the SUV?",
+        "answer": "Red",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5391, 6835, 8, 0, 0, 55 ],
+        "target_pose": [
+            -5375, 6848, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "26-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a black signboard. Please tell me What color is the signboard to the left of the black signboard?",
+        "answer": "Green",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "27-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a green signboard. Please tell me What color is the signboard to the right of the green signboard?",
+        "answer": "black",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5358, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "28-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop named BOOKS. Please tell me What type of car is parked in front of the shop named BOOKS?",
+        "answer": "police car",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5376, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5355, 6855, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "29-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with a red signboard. Please tell me Can I withdraw money from the shop with a red signboard? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5302, 6848, 7, 0, 0, 140 ],
+        "target_pose": [
+            -5280, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "30-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a yellow signboard. Please tell me What is the name of the store with a yellow signboard?",
+        "answer": "Pharmacy",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5338, 6844, 8, 0, 0, 165 ],
+        "target_pose": [
+            -5334, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "31-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a blue signboard. Please tell me What is the name of the store with a blue signboard?",
+        "answer": "Cheesspod",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5313, 6844, 8, 0, 0, 175 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "32-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a red signboard. Please tell me What is the name of the store with a red signboard?",
+        "answer": "Bank",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5291, 6847, 8, 0, 0, 175 ],
+        "target_pose": [
+            -5291, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "33-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with blue signboard. Please tell me Is there any jeep cars parked in front of the shop with blue signboard? (yes or no)",
+        "answer": "no",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5294, 6849, 8, 0, 0, 205 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "34-4",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with blue signboard. Please tell me Is there any white cars parked in front of the shop with blue signboard? (yes or no)",
+        "answer": "no",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5294, 6849, 8, 0, 0, 205 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5316, 6839, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "7-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me What's in the parking lot?",
+        "answer": "cars",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "8-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5396, 6770, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5386, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "9-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me What color is the jeep in the parking lot?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5368, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "10-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any black cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "11-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any red cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "12-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any jeep cars in the parking lot? (yes or no)",
+        "answer": "yes",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "13-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the Jeep? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5386, 6773, 9, 0, 0, 145 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "14-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is there any free parking space near the yellow sedan? (yes or no)",
+        "answer": "yes",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "15-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many jeep cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "16-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many cars in the parking lot?",
+        "answer": "8",
+        "category": "Counting",
+        "observation_pose": [
+            -5396, 6771, 9, 0, 0, 135 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "17-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many police cars in the parking lot?",
+        "answer": "one",
+        "category": "Counting",
+        "observation_pose": [
+            -5324, 6710, 9, 0, 0, 300 ],
+        "target_pose": [
+            -5359, 6750, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "18-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me Is the white car in the parking lot a sedan or a truck?",
+        "answer": "a sedan",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6707, 9, 0, 0, 40 ],
+        "target_pose": [
+            -5361, 6722, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "19-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me What color is the car narrated by the red sedan in the parking lot?",
+        "answer": "black",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5367, 6769, 7, 0, 0, 145 ],
+        "target_pose": [
+            -5370, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "20-5",
+        "question": "There is a building to the south of you. To the south of the building, there is a parking lot. Please tell me How many empty parking spaces are left in the parking lot?",
+        "answer": "4",
+        "category": "Counting",
+        "observation_pose": [
+            -5393, 6775, 14, 0, 0, 140 ],
+        "target_pose": [
+            -5373, 6720, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "21-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a black signboard. Please tell me What is the name of the store with a black signboard?",
+        "answer": "EXCHANGE",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5388, 6847, 9, 0, 0, 150 ],
+        "target_pose": [
+            -5368, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "22-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a Green signboard. Please tell me What is the name of the store with a Green signboard?",
+        "answer": "BOOKS",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "23-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with a yellow signboard. Please tell me What color is the car parked in front of a shop with a yellow signboard?",
+        "answer": "yellow",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5356, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5336, 6833, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "24-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop named BOOKS. Please tell me What color is the signboard of shop named BOOKS?",
+        "answer": "Green",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5369, 6846, 8, 0, 0, 135 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "25-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a SUV. Please tell me What color is the SUV?",
+        "answer": "Red",
+        "category": "Attribute Recognition",
+        "observation_pose": [
+            -5391, 6835, 8, 0, 0, 55 ],
+        "target_pose": [
+            -5375, 6848, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "26-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a black signboard. Please tell me What color is the signboard to the left of the black signboard?",
+        "answer": "Green",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5346, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "27-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a green signboard. Please tell me What color is the signboard to the right of the green signboard?",
+        "answer": "black",
+        "category": "Spatial Reasoning",
+        "observation_pose": [
+            -5354, 6844, 8, 0, 0, 195 ],
+        "target_pose": [
+            -5358, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "28-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop named BOOKS. Please tell me What type of car is parked in front of the shop named BOOKS?",
+        "answer": "police car",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5376, 6846, 8, 0, 0, 125 ],
+        "target_pose": [
+            -5355, 6855, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "29-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with a red signboard. Please tell me Can I withdraw money from the shop with a red signboard? (yes or no)",
+        "answer": "yes",
+        "category": "World Knowledge",
+        "observation_pose": [
+            -5302, 6848, 7, 0, 0, 140 ],
+        "target_pose": [
+            -5280, 6824, 5, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "30-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a yellow signboard. Please tell me What is the name of the store with a yellow signboard?",
+        "answer": "Pharmacy",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5338, 6844, 8, 0, 0, 165 ],
+        "target_pose": [
+            -5334, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "31-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a blue signboard. Please tell me What is the name of the store with a blue signboard?",
+        "answer": "Cheesspod",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5313, 6844, 8, 0, 0, 175 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "32-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a store with a red signboard. Please tell me What is the name of the store with a red signboard?",
+        "answer": "Bank",
+        "category": "Object Recognition",
+        "observation_pose": [
+            -5291, 6847, 8, 0, 0, 175 ],
+        "target_pose": [
+            -5291, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "33-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with blue signboard. Please tell me Is there any jeep cars parked in front of the shop with blue signboard? (yes or no)",
+        "answer": "no",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5294, 6849, 8, 0, 0, 205 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    },
+    {
+        "question_id": "34-5",
+        "question": "There is a building to the south of you. To the north of the building, there is a shop with blue signboard. Please tell me Is there any white cars parked in front of the shop with blue signboard? (yes or no)",
+        "answer": "no",
+        "category": "Existence Judgement",
+        "observation_pose": [
+            -5294, 6849, 8, 0, 0, 205 ],
+        "target_pose": [
+            -5313, 6825, 8, 0, 0, 0 ],
+        "initial_pose": [
+            -5372, 6840, 9, 0, 0, 180 ]
+    }
+]
